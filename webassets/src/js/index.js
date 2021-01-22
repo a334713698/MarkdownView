@@ -29,6 +29,8 @@ window.showMarkdown = (percentEncodedMarkdown, enableImage = true) => {
 
   markdown.use(emoji)
 
+  markdown.use(require('markdown-it-latex2img'))
+
   let html = markdown.render(markdownText)
 
   document.getElementById('contents').innerHTML = html

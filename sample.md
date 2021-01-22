@@ -127,3 +127,17 @@ Autoconverted link https://github.com/nodeca/pica
 ## Emoji
 
 :bow:
+
+
+## LaTeX2Image
+
+### inline
+$\frac {a+1}{b+2}$ # The opening $ must have a non-space character immediately to its right, while the closing $ must have a non-space character immediately to its left, and must not be followed immediately by a digit. 
+
+### block
+$$
+{
+e^x=\lim_{n\to\infty} \left( 1+\frac{x}{n} \right)^n
+\qquad (2) 
+}
+$$
